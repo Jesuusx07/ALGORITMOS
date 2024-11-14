@@ -1,0 +1,101 @@
+/* IMPORTAR TIPOGRAFIA*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#cont-general{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #2a3802;
+    padding: 40px 0;
+}
+
+
+#cont-general.dia{
+    background: #000;
+}
+.left,
+.right{
+    color: rgb(10, 201, 96);
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #2f2f2f;
+    padding: 40px 0;
+      
+}
+
+
+h2{
+    color: rgb(0, 255, 13);
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+
+button{
+    background: transparent;
+    box-shadow:  0 4px 8px 0;
+}
+
+button:hover{
+    background: rgb(220, 220, 226);
+    color: #000;
+    border-radius: 30px;
+}
+
+#figura{
+    width: 200px;
+    height: 280px;
+    background: aquamarine;
+    margin: 80px auto;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 0 100px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    color: #fff;
+    font-size: 52px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+}
+p{
+    color: #fff;
+    font-size: 22px;
+}
+
+
+button{
+    background-color: transparent;
+    color: rgb(25, 223, 68);
+    padding: 14px 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-style: italic;
+    margin: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(0, 0, 0);
+    color: #000;
+    border-radius: 0;
+}
